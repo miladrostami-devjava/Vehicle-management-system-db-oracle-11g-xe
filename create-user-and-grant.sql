@@ -1,0 +1,10 @@
+create user vehicle_management_system identified by "management_system@123";
+grant dba to vehicle_management_system;
+grant create table to vehicle_management_system;
+grant connect to vehicle_management_system;
+grant create view to vehicle_management_system;
+grant drop any table to vehicle_management_system;
+grant create procedure to vehicle_management_system;
+grant EXECUTE ANY PROCEDURE to vehicle_management_system;
+grant INSERT ANY TABLE,  SELECT ANY TABLE to vehicle_management_system;
+grant UPDATE ANY TABLE,DELETE ANY TABLE,ALTER DATABASE,BACKUP ANY TABLE,CREATE SYNONYM to vehicle_management_system;
